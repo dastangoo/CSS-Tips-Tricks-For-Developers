@@ -2,18 +2,6 @@ body {
 	padding: 50px;
 }
 
-::-webkit-input-placeholder {
-	color: blue;
-}
-
-::-moz-placeholder {
-	color: green;
-}
-
-:-ms-input-placeholder {
-	color: yellow;
-}
-
-input[type="email"]::-webkit-input-placeholder {
-	color: aqua;
+a, input {
+	outline: none;
 }
