@@ -2,11 +2,45 @@ body {
 	padding: 50px;
 }
 
-::selection {
-	background-color: green;
-	color: white;
+input[type="radio"], input[type="checkbox"] {
+	display: none;
 }
-::-moz-selection {
-	background-color: green;
-	color: white;	
+
+input[type="checkbox"] + label:before {
+	background-color: white;
+	border: 1px solid #ccc;
+	content:"";
+	display: inline-block;
+	font-size: 12px;
+	height: 17px;
+	line-height: 15px;
+	vertical-align: middle;
+	text-align: center;
+	width: 16px;
+	margin-right: 5px; 
+}
+
+input[type="checkbox"]:checked + label:before {
+	content: "\2713";
+	
+}
+
+input[type="radio"] + label:before {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius:  5px;
+	content:"";
+	display: inline-block;
+	font-size: 25px;
+	height: 17px;
+	line-height: 15px;
+	vertical-align: middle;
+	text-align: center;
+	width: 16px;
+	margin-right: 5px; 
+}
+
+input[type="radio"]:checked + label:before {
+	content: "\2022";
+	
 }
