@@ -1,25 +1,34 @@
 body {
 	padding: 50px;
 }
-.container1, .container2 {
-	background-color: lightgrey;
+
+.arrow {
+	height: 0;
+	width: 0;
+	margin-bottom: 25px;
 }
-/* First way to center an image */
-.container1 {
-	width: 100%;
-	min-height: 250px;
-	background: lightgrey url("images/image.png") center center no-repeat;
+.up {
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid green;
 }
 
-.container2 {
-	position: relative;
-	min-height: 250px;
+.left {
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid blue;
 }
-/* Second way to center an image */
-.container2 img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -100px;
-	margin-left: -170px;
+
+.down {
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-top: 10px solid gray;
+}
+
+.right {
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 50px solid black;
+	
+	-webkit-transform: rotate(90deg); 
 }
