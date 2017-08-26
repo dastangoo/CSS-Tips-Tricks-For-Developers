@@ -1,0 +1,42 @@
+body {
+	padding: 50px
+}
+/*
+p {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25x;
+	font-family: "Open Sans", serif;
+	
+	background-color: lightgray;
+	background-image: url(images/image.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	 
+	border-width: 5px;
+	border-color: green;
+	border-style: solid;
+}
+*/
+p {
+	font: italic bold 18px/25px "Open Sans", serif;
+	background: lightgray url(images/image.png) no-repeat top right;
+	padding: 25px;
+	border: 5px green solid;
+}
+
+/*ul li {
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: url(images/list.png)
+}*/
+
+ul li {
+	list-style: square outside url(images/list.png);
+}
