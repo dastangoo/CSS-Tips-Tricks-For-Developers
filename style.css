@@ -2,16 +2,11 @@ body {
 	padding: 50px;
 }
 
-.dropcap {
-	float: left;
-	color: blue;
-	margin-right: 25px;
-	font: 90px/50px serf;
+::selection {
+	background-color: green;
+	color: white;
 }
-
-p:first-child:first-letter{
-	float: left;
-	color: blue;
-	margin-right: 25px;
-	font: 90px/50px serf;	
+::-moz-selection {
+	background-color: green;
+	color: white;	
 }
