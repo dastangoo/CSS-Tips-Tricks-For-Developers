@@ -1,16 +1,20 @@
 body {
 	padding: 50px;
 }
-
-.circle {
-	background-color: blue;
-	width: 80px;
-	height: 80px;
-	border-radius: 45px;
+ul {
+	list-style-type: none;
+}
+.list1 li {
+	background: url(images/checkmark.png) left center no-repeat;
+	padding-left: 25px;
 }
 
-img {
-	width: 300px;
-	height: 300px;
-	border-radius: 200px; 
+.list2 li:before {
+	content: "";
+	display: inline-block;
+	background-color: blue;
+	width: 8px;
+	height: 8px;
+	border-radius: 5px;
+	margin-right: 25px;
 }
