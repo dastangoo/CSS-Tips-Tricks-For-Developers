@@ -1,0 +1,19 @@
+body {
+	padding: 50px;
+}
+
+::-webkit-input-placeholder {
+	color: green;
+}
+
+::-moz-placeholder {
+	color: green;
+}
+
+:-ms-input-placeholder {
+	color: green;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+	color: blue;
+}

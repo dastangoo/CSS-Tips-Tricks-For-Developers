@@ -1,0 +1,22 @@
+body {
+	padding: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.list1 li {
+	background: url(images/checkmark.png) left center no-repeat;
+	padding-left: 25px;
+}
+
+.list2 li:before {
+	content: "";
+	display: inline-block;
+	background-color: blue;
+	width: 8px;
+	height: 8px;
+	border-radius: 5px;
+	margin-right: 15px;
+}

@@ -1,0 +1,44 @@
+body {
+	padding: 50px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label:before {
+	background-color: white;
+	border: 1px solid #ccc;
+	content: "";
+	display: inline-block;
+	font-size: 12px;
+	height: 16px;
+	line-height: 17px;
+	vertical-align: middle;
+	text-align: center;
+	width: 16px;
+	margin-right: 5px;
+}
+
+input[type="checkbox"]:checked + label:before {
+	content: "\2713"
+}
+
+input[type="radio"] + label:before {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	content: "";
+	display: inline-block;
+	font-size: 25px;
+	height: 16px;
+	line-height: 17px;
+	vertical-align: middle;
+	text-align: center;
+	width: 16px;
+	margin-right: 5px;
+}
+
+input[type="radio"]:checked + label:before {
+	content: "\2022"
+}

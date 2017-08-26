@@ -1,0 +1,17 @@
+body {
+	padding: 50px;
+}
+
+.dropcap {
+	float: left;
+	color: blue;
+	margin-right: 25px;
+	font: 90px/50px serif;
+}
+
+p:first-child:first-letter {
+	float: left;
+	color: blue;
+	margin-right: 25px;
+	font: 90px/50px serif;
+}

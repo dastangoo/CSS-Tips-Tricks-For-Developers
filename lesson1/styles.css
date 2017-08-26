@@ -1,0 +1,14 @@
+body {
+	padding: 50px;
+}
+
+p {
+	font: italic bold 18px/25px serif;
+	background: lightgrey url(images/image.png) no-repeat top right;
+	padding: 25px;
+	border: 5px green solid;
+}
+
+ul li {
+	list-style: square outside url(images/list.png);
+}

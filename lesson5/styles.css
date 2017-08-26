@@ -1,0 +1,13 @@
+body {
+	padding: 50px;
+}
+
+::selection {
+	background-color: green;
+	color: white;
+}
+
+::-moz-selection {
+	background-color: green;
+	color: white;	
+}

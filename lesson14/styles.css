@@ -1,0 +1,20 @@
+body {
+	padding: 50px;
+}
+
+table {
+	border: 2px solid lightgrey;
+}
+
+	td, th {
+		border: 1px solid lightgrey;
+		padding: 10px;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	tr:nth-child(even) {
+		background-color: lightgrey;
+	}
