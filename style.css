@@ -2,45 +2,25 @@ body {
 	padding: 50px;
 }
 
-input[type="radio"], input[type="checkbox"] {
-	display: none;
+label {
+	display: block;
 }
 
-input[type="checkbox"] + label:before {
-	background-color: white;
-	border: 1px solid #ccc;
-	content:"";
-	display: inline-block;
-	font-size: 12px;
-	height: 17px;
-	line-height: 15px;
-	vertical-align: middle;
-	text-align: center;
-	width: 16px;
-	margin-right: 5px; 
+input[type="text"], textarea {
+	border:1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	padding: 5px;
 }
 
-input[type="checkbox"]:checked + label:before {
-	content: "\2713";
-	
+
+input[type="text"]:hover, textarea:hover {
+	box-shadow: 0 0 3px grey;
+	transition: box-shadow .2s ease-in-out;
 }
 
-input[type="radio"] + label:before {
-	background-color: white;
-	border: 1px solid #ccc;
-	border-radius:  5px;
-	content:"";
-	display: inline-block;
-	font-size: 25px;
-	height: 17px;
-	line-height: 15px;
-	vertical-align: middle;
-	text-align: center;
-	width: 16px;
-	margin-right: 5px; 
+input[type="text"]:focus, textarea:focus{
+	box-shadow: 0 0 3px grey;
+	border-color: blue;
 }
 
-input[type="radio"]:checked + label:before {
-	content: "\2022";
-	
-}
